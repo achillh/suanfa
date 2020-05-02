@@ -1,6 +1,7 @@
 package BFS;
 
 import TwoPointer.LeetCode234;
+import utils.TreeNode;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -114,13 +115,5 @@ public class LeetCode102 {
 
     }
 
-    public class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
 
-        TreeNode(int x) {
-            val = x;
-        }
-    }
 }

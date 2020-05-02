@@ -1,5 +1,7 @@
 package DFS;
 
+import utils.TreeNode;
+
 import java.util.LinkedList;
 
 public class LeetCode129 {
@@ -33,13 +35,4 @@ public class LeetCode129 {
         return sum;
     }
 
-    public class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int x) {
-            val = x;
-        }
-    }
 }
